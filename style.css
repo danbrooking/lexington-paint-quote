@@ -1082,9 +1082,6 @@ body.stretched #header.full-header .container {
 
 #header.full-header #primary-menu > ul {
 	float: left;
-	padding-right: 15px;
-	margin-right: 15px;
-	border-right: 1px solid #EEE;
 }
 
 #header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
@@ -11188,7 +11185,8 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block.center > span,
 .heading-block.title-center > span,
 .center .heading-block > span {
-	max-width: 700px;
+	/*max-width: 700px;*/
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -13610,4 +13608,3 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
-

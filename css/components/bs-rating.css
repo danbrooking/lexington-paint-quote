@@ -33,8 +33,6 @@
 
 	.rating-active { cursor: default; }
 
-	.rating-disabled { cursor: not-allowed; }
-
 	.rating-uni {
 		font-size: 1.2em;
 		margin-top: -5px;
@@ -57,7 +55,7 @@
 		top: 0;
 		white-space: nowrap;
 		overflow: hidden;
-		color: #fde16d;
+		color: #00227a;
 		transition: all 0.2s ease-out;
 		-o-transition: all 0.2s ease-out;
 		-moz-transition: all 0.2s ease-out;
@@ -100,7 +98,7 @@
 	.rating-lg { font-size: 3em; }
 	.rating-md { font-size: 2.5em; }
 	.rating-sm { font-size: 2em; }
-	.rating-xs { font-size: 1.5em; }
+	.rating-xs { font-size: 1em; }
 
 	/**
 	 * Clear rating button
